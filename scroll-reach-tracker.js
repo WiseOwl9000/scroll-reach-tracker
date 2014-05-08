@@ -1,4 +1,7 @@
+var _gaq = _gaq || [];
+
 (function () {
+
 	var threshold = 10; // This number should a divisor of 100 (1, 2, 4, 5, 10, 20, 25, 50, 100) so that it will go evenly into the page's height in percents
 	var curReach = 0; // used to track the current max reach of the user
 	var $window = $(window); // select the window once, not every time we use it.
